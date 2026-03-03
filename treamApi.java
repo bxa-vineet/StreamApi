@@ -120,6 +120,23 @@ System.out.println();
 
 // Sort a list of integers in descending order.
 ans6.stream().sorted(Comparator.reverseOrder()).forEach(n->System.out.print(n +" "));
+// Sort employees by salary.
+
+// Sort employees by name, then by salary.
+// Remove duplicate elements from a list.
+List<Integer> ans7 = Arrays.asList(1,2,3,2,4,5,1,6,3);
+ans7.stream()
+.distinct()
+.forEach( n-> System.out.print(n +" "));
+
+// Remove duplicate employees based on email.
+// Find the 3 highest numbers.
+// Find the 5 smallest numbers.
+
+
+
+// Skip first 5 numbers and return rest.
+// Get second highest salary.
 
        
     }
