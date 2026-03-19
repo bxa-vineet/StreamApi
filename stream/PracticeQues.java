@@ -61,9 +61,7 @@ public class PracticeQues {
         // 5️⃣ Check if first element > 50
         // Question: Is first element greater than 50?
         boolean result = list.stream()
-                .findFirst()
-                .filter(x -> x > 50)
-                .isPresent();
+                .anyMatch(x -> x > 50);
         System.out.println(result);
 
         // Output:
